@@ -17,7 +17,7 @@ public class HomeController {
 
     @GetMapping("/index")
     public String index(String name) {
-        return this.appName + "  ??2  " +  name + " = kole =" + (new Date()).toLocaleString();
+        return this.appName + "  ??24  " +  name + " = kole =" + (new Date()).toLocaleString();
     }
 
 }
